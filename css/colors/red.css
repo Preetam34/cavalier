@@ -1,0 +1,47 @@
+.affa-bg-color, .btn-custom, input[type="button"], input[type="submit"], input[type="reset"], button, .carousel-slider .slick-dots li button:hover, .carousel-slider .slick-dots li.slick-active button, a.scrollup:hover, .affa-panel .panel .panel-heading h4 a, .text-white .affa-panel .panel .panel-heading h4 a.collapsed, .affa-progress-bar .progress-bar-line .progress-bar-val, .affa-post .post-item-meta ul li:after, .post-format-link a, .single .post-single-meta ul li:after, .text-white .widget_search .affa-form-search input[type="submit"], .text-white .tagcloud a, .navbar.navbar-ebook .nav > li.nav-menu-btn > a, .carousel-slider.slick-slider.teams-medical-slider .slick-dots li button, .carousel-slider.slick-slider.testimonials-medical-slider .slick-dots li button { background-color:#f03842; }
+
+.bg-color-overlay10 { background-color:rgba(240,56,66,.1); }
+.bg-color-overlay20 { background-color:rgba(240,56,66,.2); }
+.bg-color-overlay30 { background-color:rgba(240,56,66,.3); }
+.bg-color-overlay40 { background-color:rgba(240,56,66,.4); }
+.bg-color-overlay50 { background-color:rgba(240,56,66,.5); }
+.bg-color-overlay60 { background-color:rgba(240,56,66,.6); }
+.bg-color-overlay70 { background-color:rgba(240,56,66,.7); }
+.bg-color-overlay80 { background-color:rgba(240,56,66,.8); }
+.bg-color-overlay90, .affa-form-signup .submit-status { background-color:rgba(240,56,66,.9); }
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, a, a:visited, .list-icon ul li .ion, .carousel-slider .slick-prev:hover, .carousel-slider .slick-next:hover, .carousel-slider .slick-prev:hover:before, .carousel-slider .slick-next:hover:before, .header-general .header-txt h1, .affa-panel .panel .panel-body h1 span, .affa-panel .panel .panel-body h2 span, .affa-panel .panel .panel-body h3 span, .affa-panel .panel .panel-body h4 span, .affa-panel .panel .panel-body h5 span, .affa-panel .panel .panel-body h6 span, .affa-modal .modal-body a:hover, .affa-timeline li h5, .affa-info-list li a:hover, .affa-post .post-item-title a:hover, .post-single-related .post-item .post-item-title a:hover, .widget a:hover, .post-heading-left-medical h2, .post-heading-center-medical h2, .navbar.navbar-ebook .nav-btn-mobile a:hover, .header-medical .header-txt ul li .ion, .affa-feature-icon-medical:hover .ion, .affa-team-medical .team-txt .team-socials li a, .affa-subscribe-medical .subscribe-heading h2, .footer-medical .footer-nav a:hover { color:#f03842; }
+
+.btn-custom.btn-white, input[type="button"].btn-white, input[type="submit"].btn-white, input[type="reset"].btn-white, button.btn-white { color:#f03842 !important; }
+
+.btn-custom:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover, .text-white .affa-panel .panel .panel-heading h4 a, .text-white .affa-panel .panel .panel-heading h4 a.collapsed:hover, .post-format-link a:hover, .text-white .widget_search .affa-form-search input[type="submit"]:hover, .text-white .tagcloud a:hover, .navbar.navbar-ebook .nav > li.nav-menu-btn > a:hover, .navbar.navbar-ebook .nav > li.nav-menu-btn > a.active { background-color:#fe565f; }
+
+.affa-timeline li.current:before {
+	background-color:#f03842;
+	box-shadow:0 0 0 5px rgba(240,56,66,.2);
+}
+.text-white .affa-timeline li.current:before { box-shadow:0 0 0 5px rgba(240,56,66,.5); }
+
+.affa-team-medical .team-txt .team-socials li a:hover {
+	color:#FFF;
+	background-color:#f03842;
+	border-color:#f03842;
+}
+
+
+/* ========== Don't change this styles ========== */
+
+a:hover, .widget a { color:#253c58; }
+
+.text-white a:hover, .text-white .affa-info-list li a:hover { color:rgba(255,255,255,.7); }
+
+.btn-custom.disabled, input[type="button"]:disabled, input[type="submit"]:disabled, input[type="reset"]:disabled, button:disabled, .btn-custom.disabled:hover, input[type="button"]:disabled:hover, input[type="submit"]:disabled:hover, input[type="reset"]:disabled:hover, button:disabled:hover {
+	color:#9a9a9a !important;
+	background-color:#e0e0e0;
+}
+
+.carousel-slider .slick-prev.slick-disabled:hover, .carousel-slider .slick-next.slick-disabled:hover, .carousel-slider .slick-prev.slick-disabled:hover:before, .carousel-slider .slick-next.slick-disabled:hover:before { color:#e0e0e0; }
+
+a.scrollup, .post-format-link a, .tagcloud a, .tagcloud a:hover, .affa-socials-widget a:hover { color:#FFF; }
+
+.post-paginations a { color:#a9a9a9; }
