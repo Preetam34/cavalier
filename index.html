@@ -79,7 +79,8 @@
 
           <!-- #appointment -->
           <div id="appointment" class="header-form">
-            <form method="post" action="#" class="affa-form-signup form-medical" onsubmit="sendEmail(); reset(); return false;">
+            <form method="post" action="#" class="affa-form-signup form-medical"
+              onsubmit="sendEmail(); reset(); return false;">
               <div class="submit-status"></div>
               <h4 class="form-heading" style="color: #fff">
                 Register now Limited seats available!
@@ -140,10 +141,16 @@
                 <img src="images/content/banner/nda.png" />
                 <h4 style="color: #ed1111;margin-top: 5px;">NDA Crash Course</h4>
                 <p>
-                  The National Defense Academy (NDA) is the joint defense service training institute of the Indian Armed Forces, where cadets of the three services
-                  i.e. the Indian Army, the Indian Navy and the Indian Air Force train together before they go on to respective service academy for further pre-commission training.
-                  The NDA is located in Khadakwasla, Pune, Maharashtra.
-                  It is the first tri-service academy in the world.
+                  Join the best NDA coaching institute and get selected in NDA with our thoughtfully designed curriculum
+                  and Online study.
+                  We believe that every success depends upon a good planning and thus, we lay special emphasis on study
+                  material, mock tests, question banks and online tests.
+                  Customised Live Classes for NDA Written.
+                  Special Weekly Live Doubt Clearing Sessions
+                  Study material along with recorded lectures on The Cavalier APP
+                  Regular online Test and Assignments.
+                  Online Full Length Test Before Exam.
+                  Join SSB Interview Course and GET Crash Course Fees Back.
                 </p>
               </div>
             </div>
@@ -154,14 +161,12 @@
                 <img src="images/content/banner/cds.png" />
                 <h4 style=" color: #ed1111; margin-top: 5px;">CDS Crash Course</h4>
                 <p>
-                  Join the best NDA coaching institute  and get selected in NDA with our thoughtfully designed curriculum and Online study. 
-                  We believe that every success depends upon a good planning and thus, we lay special emphasis on study material, mock tests, question banks and online tests.
-                  Customised Live Classes for NDA Written.
-                  Special Weekly Live Doubt Clearing Sessions
-                  Study material along with recorded lectures on The Cavalier APP
-                  Regular online Test and Assignments.
-                  Online Full Length Test Before Exam.  
-                  Join SSB Interview Course and GET Crash Course Fees Back.
+                  The National Defense Academy (NDA) is the joint defense service training institute of the Indian Armed
+                  Forces, where cadets of the three services
+                  i.e. the Indian Army, the Indian Navy and the Indian Air Force train together before they go on to
+                  respective service academy for further pre-commission training.
+                  The NDA is located in Khadakwasla, Pune, Maharashtra.
+                  It is the first tri-service academy in the world.
                 </p>
               </div>
             </div>
@@ -609,13 +614,11 @@
       let finalmessage = `First Name : ${firstName} Last Name : ${lastName} <br>  Email : ${email} <br>  Phone Number : ${phoneNo} <br>`;
       console.log(finalmessage);
       Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "preetamkumar3232@gmail.com",
-        Password: "3afdf4bd-bba9-428f-afc7-ac253bef1cbc",
-        To: "preetamkumar3432@gmail.com",
-        From: "preetamkumar3232@gmail.com",
-        Subject: "New Equiry Form",
-        Body: finalmessage
+        SecureToken: "20b9f25d-dfc9-4adb-b7de-69b15cc5ecac",
+        To: 'preetamkumar3432@gmail.com',
+        From: "'preetamkumar3232@gmail.com'",
+        Subject: "This is the subject",
+        Body: "And this is the body"
       }).then(
         message => alert(message)
       );
