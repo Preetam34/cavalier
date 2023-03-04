@@ -141,16 +141,12 @@
                 <img src="images/content/banner/nda.png" />
                 <h4 style="color: #ed1111;margin-top: 5px;">NDA Crash Course</h4>
                 <p>
-                  Join the best NDA coaching institute and get selected in NDA with our thoughtfully designed curriculum
-                  and Online study.
-                  We believe that every success depends upon a good planning and thus, we lay special emphasis on study
-                  material, mock tests, question banks and online tests.
-                  Customised Live Classes for NDA Written.
-                  Special Weekly Live Doubt Clearing Sessions
-                  Study material along with recorded lectures on The Cavalier APP
-                  Regular online Test and Assignments.
-                  Online Full Length Test Before Exam.
-                  Join SSB Interview Course and GET Crash Course Fees Back.
+                  The National Defense Academy (NDA) is the joint defense service training institute of the Indian Armed
+                  Forces, where cadets of the three services
+                  i.e. the Indian Army, the Indian Navy and the Indian Air Force train together before they go on to
+                  respective service academy for further pre-commission training.
+                  The NDA is located in Khadakwasla, Pune, Maharashtra.
+                  It is the first tri-service academy in the world.
                 </p>
               </div>
             </div>
@@ -161,12 +157,15 @@
                 <img src="images/content/banner/cds.png" />
                 <h4 style=" color: #ed1111; margin-top: 5px;">CDS Crash Course</h4>
                 <p>
-                  The National Defense Academy (NDA) is the joint defense service training institute of the Indian Armed
-                  Forces, where cadets of the three services
-                  i.e. the Indian Army, the Indian Navy and the Indian Air Force train together before they go on to
-                  respective service academy for further pre-commission training.
-                  The NDA is located in Khadakwasla, Pune, Maharashtra.
-                  It is the first tri-service academy in the world.
+                  Join the best CDS coaching institute and get selected in CDS with our thoughtfully designed curriculum
+                  and Online study.
+                  We believe that every success depends upon a good planning and thus, we lay special emphasis on study
+                  material, mock tests, question banks and online tests.
+                  Customised Live Classes for CDS Written.
+                  Special Weekly Live Doubt Clearing Sessions
+                  Study material along with recorded lectures on The Cavalier APP
+                  Regular online Test and Assignments.
+                  Online Full Length Test Before Exam.
                 </p>
               </div>
             </div>
@@ -198,7 +197,7 @@
                 <div class="list-icon">
                   <ul>
                     <li>
-                      <i class="ion ion-android-checkbox-outline"></i>Customised live classes for CDS/OTA written.
+                      <i class="ion ion-android-checkbox-outline"></i>Customised live classes for NDA/OTA written.
                     </li>
                     <li>
                       <i class="ion ion-android-checkbox-outline"></i>
@@ -256,7 +255,7 @@
                   <ul>
                     <li style="color: #222">
                       <i class="ion ion-android-checkbox-outline"></i>
-                      Customised live classes for NDA written.
+                      Customised live classes for CDS written.
                     </li>
                     <li style="color: #222">
                       <i class="ion ion-android-checkbox-outline"></i>
@@ -306,8 +305,7 @@
             <!-- heading -->
             <h2>Meet Our Faculty</h2>
             <p>
-              We are board-certified surgeons and specialist here ready to
-              help you.
+              Meet our experienced faculty
             </p>
           </div>
 
@@ -322,12 +320,7 @@
                 <div class="team-txt">
                   <div class="team-name">
                     <h4>SHEKHAR SINGH</h4>
-                    <p>MATHEMATICS FACULTY BTECH (EEE)</p>
-                  </div>
-                  <div class="team-desc">
-                    <p>
-                      OVER 16 YEARS OF TEACHING EXPERIENCE FOR DEFENCE EXAMS.
-                    </p>
+                    <p>FACULTY : MATH</p>
                   </div>
                 </div>
               </div>
@@ -344,12 +337,7 @@
                 <div class="team-txt">
                   <div class="team-name">
                     <h4>GOLDIE VOHRA</h4>
-                    <p>ENGLISH FACULTY M.A.(ENGLISH)</p>
-                  </div>
-                  <div class="team-desc">
-                    <p>
-                      HAVING MORE THAN 15 YRS OF EXPERIENCE FOR DEFENCE EXAMS.
-                    </p>
+                    <p>FACULTY : ENGLISH</p>
                   </div>
                 </div>
               </div>
@@ -364,10 +352,7 @@
                 <div class="team-txt">
                   <div class="team-name">
                     <h4>BHAWANI SINGH</h4>
-                    <p>GENERAL STUDIES</p>
-                  </div>
-                  <div class="team-desc">
-                    <p>OVER 12 YEARS OF TEACHING EXPERIENCE.</p>
+                    <p>FACULTY : GENERAL STUDIES</p>
                   </div>
                 </div>
               </div>
@@ -383,13 +368,7 @@
                 <div class="team-txt">
                   <div class="team-name">
                     <h4>NUPUR GULATI</h4>
-                    <p>BIOLOGY & CHEMISTRY FACULTY Med IN BIOLOGY</p>
-                  </div>
-                  <div class="team-desc">
-                    <p>
-                      MORE THAN 10 YEAR OF TEACHING EXPERIENCE FOR DEFENCE
-                      EXAMS.
-                    </p>
+                    <p>FACULTY : BIOLOGY & CHEMISTRY</p>
                   </div>
                 </div>
               </div>
@@ -407,13 +386,9 @@
                 <div class="team-txt">
                   <div class="team-name">
                     <h4>ABHISHEK THAKUR</h4>
-                    <p>PHYSICS FACULTY</p>
+                    <p>FACULTY : PHYSICS</p>
                   </div>
-                  <div class="team-desc">
-                    <p>
-                      B.TECH,OVER 11 YEARS OF TEACHING EXPERIENCE IN TEACHING STUDENTS OF DEFENCE EXAMS
-                    </p>
-                  </div>
+
                 </div>
               </div>
             </div>
@@ -613,16 +588,24 @@
       let phoneNo = document.getElementById("phoneNo").value;
       let finalmessage = `First Name : ${firstName} Last Name : ${lastName} <br>  Email : ${email} <br>  Phone Number : ${phoneNo} <br>`;
       console.log(finalmessage);
+
       Email.send({
-        SecureToken: "20b9f25d-dfc9-4adb-b7de-69b15cc5ecac",
-        To: 'preetamkumar3432@gmail.com',
-        From: "'preetamkumar3232@gmail.com'",
+        Host: "smtp.elasticemail.com",
+        Username: "preetamkumar3232@gmail.com",
+        Password: "5AFDE070F9506B581C70928FE2476EE19D43",
+        To: email,
+        From: "preetamkumar3232@gmail.com",
         Subject: "This is the subject",
         Body: "And this is the body"
       }).then(
         message => alert(message)
       );
+
     }
+
+
+
+
   </script>
 </body>
 
