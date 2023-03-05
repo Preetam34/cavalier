@@ -586,17 +586,17 @@
       let lastName = document.getElementById("last_name").value;
       let email = document.getElementById("email").value;
       let phoneNo = document.getElementById("phoneNo").value;
-      let finalmessage = `First Name : ${firstName} Last Name : ${lastName} <br>  Email : ${email} <br>  Phone Number : ${phoneNo} <br>`;
+      let finalmessage = `First Name : ${firstName} <br> Last Name : ${lastName} <br>  Email : ${email} <br>  Phone Number : ${phoneNo} <br>`;
       console.log(finalmessage);
 
       Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "preetamkumar3232@gmail.com",
-        Password: "5AFDE070F9506B581C70928FE2476EE19D43",
+        Username: "cavalieronlineadword@gmail.com",
+        Password: "4AF127F3528F10A4DE765C52A1E88DEB9718",
         To: email,
-        From: "preetamkumar3232@gmail.com",
-        Subject: "This is the subject",
-        Body: "And this is the body"
+        From: "cavalieronlineadword@gmail.com",
+        Subject: "New Enquiry form",
+        Body: finalmessage
       }).then(
         message => alert(message)
       );
